@@ -1,0 +1,319 @@
+/* General Styles */
+body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: flex-start;
+            min-height: 100vh;
+        }
+
+        .header {
+            background-color: #007BFF;
+            color: white;
+            padding: 15px;
+            text-align: center;
+            font-size: 24px;
+            font-weight: bold;
+            width: 100%;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .menu-container {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            background: #fff;
+            padding: 10px 0;
+            width: 100%;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+            position: sticky;
+            top: 0;
+        }
+
+        .menu-container a {
+            text-decoration: none;
+            color: #007BFF;
+            font-weight: bold;
+            padding: 8px 15px;
+            transition: 0.3s;
+        }
+
+        .menu-container a:hover {
+            background-color: #007BFF;
+            color: white;
+            border-radius: 5px;
+        }
+
+        .main-container {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+            width: 50%;
+            margin-top: 20px;
+            text-align: center;
+            display: none;
+        }
+
+        /* Animated "Welcome to My Mento" */
+        .welcome-text {
+            font-size: 30px;
+            font-weight: bold;
+            color: #007BFF;
+            opacity: 0;
+            transform: translateY(-10px);
+            animation: fadeInMove 2s ease-in-out forwards;
+        }
+
+        @keyframes fadeInMove {
+            0% { opacity: 0; transform: translateY(-10px); }
+            100% { opacity: 1; transform: translateY(0); }
+        }
+
+        /* Animated Message */
+        .message {
+            font-size: 18px;
+            color: #fff;
+            font-weight: bold;
+            margin-top: 10px;
+            background: linear-gradient(90deg, #FF4500, #FFD700);
+            padding: 12px;
+            border-radius: 8px;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+            animation: fadeInOut 5s infinite;
+        }
+
+        @keyframes fadeInOut {
+            0% { opacity: 0; }
+            50% { opacity: 1; }
+            100% { opacity: 0; }
+        }
+
+        .form-group {
+            text-align: left;
+            margin-bottom: 15px;
+        }
+
+        .form-group label {
+            font-weight: bold;
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        .form-group input {
+            width: 100%;
+            padding: 8px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        .question-section {
+            margin-top: 15px;
+            text-align: center;
+            font-size: 18px;
+        }
+
+        .preview-container {
+            margin-top: 10px;
+            text-align: center;
+        }
+
+        .preview-container img {
+            width: 400px;
+            height: 250px;
+            object-fit: cover;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            display: block;
+            margin: 0 auto;
+        }
+        
+
+        /* Profile Form Styling */
+.profile-container {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+/* Profile Photo Styling */
+.profile-photo {
+    flex: 1;
+    text-align: center;
+    padding: 10px;
+}
+
+.profile-photo img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 2px solid #007BFF;
+    display: block;
+    margin: 10px auto;
+    object-fit: cover;
+}
+
+/* Form Layout */
+.input-container {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+/* Form Group */
+.form-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group label {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* Radio Button Group */
+.radio-group {
+    display: flex;
+    gap: 10px;
+}
+
+/* Save Button */
+.btn-save {
+    background: #007BFF;
+    color: white;
+    border: none;
+    padding: 12px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    margin-top: 15px;
+    width: 100%;
+}
+
+.btn-save:hover {
+    background: #0056b3;
+}
+/* Profile Form Styling */
+.profile-container {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+/* Profile Photo Styling */
+.profile-photo {
+    flex: 1;
+    text-align: center;
+    padding: 10px;
+}
+
+.profile-photo img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 2px solid #007BFF;
+    display: block;
+    margin: 10px auto;
+    object-fit: cover;
+}
+
+/* Form Layout */
+.input-container {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+/* Form Group */
+.form-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group label {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* Radio Button Group */
+.radio-group {
+    display: flex;
+    gap: 10px;
+}
+
+/* Save Button */
+.btn-save {
+    background: #007BFF;
+    color: white;
+    border: none;
+    padding: 12px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    margin-top: 15px;
+    width: 100%;
+}
+
+.btn-save:hover {
+    background: #0056b3;
+}
+
+
+
+ 
+
+/* Toast Notification Styling */
+.toast {
+            visibility: hidden;
+            min-width: 250px;
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            border-radius: 5px;
+            padding: 15px;
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            z-index: 1000;
+            opacity: 0;
+            transition: opacity 0.5s, visibility 0.5s;
+        }
+
+        .toast.show {
+            visibility: visible;
+            opacity: 1;
+        }
+
+        .toast.success {
+            background-color: #28a745;
+        }
+
+        .toast.error {
+            background-color: #dc3545;
+        }

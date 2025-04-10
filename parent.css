@@ -1,0 +1,114 @@
+
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('takshal.png'); /* Add background image */
+    background-size: cover; /* Cover the entire page */
+    background-position: center; /* Center the image */
+    margin: 0;
+    padding: 0;
+}
+
+/* Container Styles */
+.register-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200vh; /* Full height */
+    backdrop-filter: blur(1px); /* Optional: Adds a blur effect behind the form */
+}
+
+.register-box {
+    background: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px; /* Fixed width */
+}
+
+.register-header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.logo {
+    width: 100px; /* Logo width */
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 24px;
+    color: #333;
+}
+
+/* Form Group Styles */
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 100%; /* Full width */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box; /* Include padding in width */
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus {
+    border-color: #2196F3; /* Focused border color */
+}
+
+/* Button Styles */
+.register-btn,
+.login-btn {
+    width: 100%; /* Full width */
+    padding: 12px;
+    background-color: #2196F3; /* Primary color */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s; /* Smooth transition */
+    margin-top: 15px; /* Added space above the button */
+}
+
+.register-btn:hover,
+.login-btn:hover {
+    background-color: #1E88E5; /* Darker on hover */
+}
+
+/* Link Styles */
+.login-link,
+.register-link {
+    text-align: center;
+    margin-top: 15px;
+}
+
+a {
+    color: #2196F3; /* Link color */
+    text-decoration: none; /* Remove underline */
+}
+
+a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+/* Error Message Styles */
+.error {
+    color: red; /* Error message color */
+    font-size: 14px; /* Font size for error messages */
+}
+
+
+

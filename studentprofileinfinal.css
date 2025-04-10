@@ -1,0 +1,71 @@
+/* General Styles */
+body {
+    background: url('teacherprofileinfinal.png') no-repeat center center fixed;
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #fff;
+
+}
+
+/* Header Styling */
+.header {
+    background: #007bff;
+    color: #fff;
+    padding: 15px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    width: 100%;
+}
+.profile-container {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 90%;
+    max-width: 500px;
+    margin: 50px auto; /* Center the container */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/* Profile Photo */
+.profile-photo img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #007bff;
+    margin-bottom: 15px;
+}
+
+/* Input Container (Profile Details) */
+.input-container p {
+    font-size: 18px;
+    color: #333;
+    background: #f8f9fa;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 8px 0;
+}
+
+/* Back Button Styling */
+.back-button {
+    float: left;
+    margin-top: -5px;
+    margin-left: 15px;
+    padding: 8px 12px;
+    background: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 14px;
+    transition: 0.3s;
+}
+
+.back-button:hover {
+    background: #0056b3;
+}
