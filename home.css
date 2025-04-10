@@ -1,0 +1,91 @@
+
+
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f4ff;
+    text-align: center;
+}
+
+.navbar {
+    display: flex;
+    justify-content: flex-end;
+    padding: 15px 50px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+}
+
+.navbar ul li {
+    margin: 0 15px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.title-section {
+    margin: 50px 0;
+}
+
+.logo {
+    width: 300px;
+    margin-bottom: 10px;
+}
+
+h1 {
+    font-size: 48px;
+    color: #1a73e8;
+    margin: 10px 0;
+}
+
+.subtitle {
+    font-size: 20px;
+    color: #555;
+    margin: 5px 0 20px;
+}
+
+.content h2 {
+    font-size: 30px;
+    color: #333;
+    margin: 40px 0;
+}
+
+.register-options {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin: 40px 0;
+}
+
+.register-card {
+    width: 150px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 15px;
+    color: #ff5722;
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+}
+
+.register-card:hover {
+    transform: scale(1.1);
+}
+
+.register-card img {
+    width: 60px;
+    margin-bottom: 10px;
+}
+
+.register-card p {
+    font-size: 18px;
+    font-weight: bold;
+}
