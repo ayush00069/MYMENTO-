@@ -1,0 +1,175 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Body Styling */
+body {
+    background: url('updateprofileteacher.png') no-repeat center center/cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 20px;
+    backdrop-filter: blur(5px);
+}
+
+/* Header Styling */
+.header {
+    font-size: 26px;
+    font-weight: bold;
+    color: white;
+    background: linear-gradient(135deg, #007bff, #0056b3);
+    padding: 20px;
+    text-align: center;
+    border-radius: 12px;
+    width: 100%;
+    max-width: 650px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+    letter-spacing: 1px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.header:hover {
+    transform: scale(1.03);
+}
+
+/* Profile Container */
+.profile-container {
+    background: rgba(255, 255, 255, 0.2);
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.15);
+    width: 100%;
+    max-width: 600px;
+    margin: 20px 0;
+    backdrop-filter: blur(10px);
+    transition: transform 0.3s ease-in-out;
+}
+
+.profile-container:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 6px 18px rgba(0, 0, 0, 0.25);
+}
+
+.profile-container p {
+    font-size: 17px;
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+    margin: 12px 0;
+}
+
+.profile-container img {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    object-fit: cover;
+    display: block;
+    margin: 10px auto;
+    border: 4px solid #007bff;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out;
+}
+
+.profile-container img:hover {
+    transform: scale(1.1);
+}
+
+/* Form Styling */
+.update-form {
+    background: rgba(255, 255, 255, 0.2);
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.15);
+    width: 100%;
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    backdrop-filter: blur(10px);
+    transition: transform 0.3s ease-in-out;
+}
+
+.update-form:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 6px 18px rgba(0, 0, 0, 0.25);
+}
+
+.update-form label {
+    font-weight: bold;
+    margin-top: 10px;
+    color: #222;
+}
+
+.update-form input,
+.update-form select {
+    width: 100%;
+    padding: 12px;
+    margin-top: 5px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 16px;
+    outline: none;
+    transition: border 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.update-form input:focus,
+.update-form select:focus {
+    border-color: #007bff;
+    box-shadow: 0px 0px 10px rgba(0, 123, 255, 0.4);
+}
+
+.update-form input[type="file"] {
+    border: none;
+}
+
+/* Button Styling */
+.update-form button {
+    background: linear-gradient(135deg, #007bff, #0056b3);
+    color: white;
+    padding: 14px;
+    border: none;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 15px;
+    transition: background 0.3s ease-in-out, transform 0.3s ease-in-out;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.update-form button:hover {
+    background: linear-gradient(135deg, #0056b3, #003c82);
+    transform: scale(1.05);
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    .header {
+        font-size: 22px;
+        padding: 15px;
+    }
+
+    .update-form,
+    .profile-container {
+        padding: 20px;
+    }
+
+    .update-form input,
+    .update-form select {
+        font-size: 14px;
+    }
+
+    .update-form button {
+        font-size: 16px;
+    }
+
+    .profile-container img {
+        width: 100px;
+        height: 100px;
+    }
+}

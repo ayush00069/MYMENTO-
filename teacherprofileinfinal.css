@@ -1,0 +1,88 @@
+/* Set background image */
+body {
+    background: url('teacherprofileinfinal.png') no-repeat center center fixed;
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #fff;
+}
+
+/* Header Styling */
+.header {
+    background: rgba(0, 0, 0, 0.8);
+    padding: 15px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Menu Styling */
+.menu-container {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 15px;
+    text-align: center;
+}
+
+.menu-container a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    margin: 15px;
+    padding: 10px;
+    transition: 0.3s;
+    border-radius: 5px;
+}
+
+.menu-container a:hover {
+    background: rgba(255, 255, 255, 0.2);
+}
+
+/* Profile Section */
+.profile-container {
+    width: 50%;
+    margin: 50px auto;
+    background: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgba(255, 255, 255, 0.3);
+    text-align: center;
+}
+
+.profile-container h2 {
+    margin-bottom: 20px;
+    font-size: 28px;
+    border-bottom: 2px solid #fff;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+.profile-container p {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.profile-container img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 3px solid white;
+    margin-top: 15px;
+}
+
+/* Button Styling */
+button {
+    background: #ff9800;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 15px;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #e68900;
+}
