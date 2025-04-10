@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f9;
+    margin: 0;
+    padding: 20px;
+}
+
+.student-card {
+    background-color: #fff;
+    padding: 25px;
+    border-radius: 15px;
+    max-width: 900px;
+    margin: auto;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+.profile-img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid #007bff;
+}
+
+h3, h5 {
+    color: #333;
+    font-weight: bold;
+}
+
+.doc-section {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-bottom: 15px;
+}
+
+.doc-img {
+    width: 200px;
+    height: 260px;
+    object-fit: cover;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+}
+
+.btn-danger {
+    margin-left: 10px;
+}
+
+.float-end {
+    float: right;
+}
+
+.text-center {
+    text-align: center;
+}
+
+a.btn {
+    margin-top: 20px;
+}
